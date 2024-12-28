@@ -10,5 +10,7 @@
 
 int    ft_printf(const char *a, ...);
 int    ft_putchar(int c);
+int     ft_str(const char *str);
+
 
 #endif

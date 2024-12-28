@@ -2,13 +2,10 @@
 
 int    ft_printf(const char *a, ...)
 {
-    if (a == "c")
-    {
-        ft_str(a);
-    }
+    printf("%s", a);
 }
 
-int main(void)
+int main()
 {
-
+    ft_printf("aaaaa");
 }
